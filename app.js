@@ -15,7 +15,7 @@ const axios = require('axios');
   	    if (i >= 0 && i <= 15) {
 
         } else if (i <= limit - 2) {
-            ac += c
+            dataString += c
         }       
       })
     
