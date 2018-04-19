@@ -1,0 +1,32 @@
+{
+  "name": "quoteshel",
+  "version": "1.0.0",
+  "description": "\"A command, a nice quote\"",
+  "main": "app.js",
+  "keywords": [
+    "quotes",
+    "celebrity",
+    "celebrity quote",
+    "pretty",
+    "nice"
+  ],
+  "author": "fransuaio - <https://github.com/fransuaio>",
+  "license": "MIT 2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fransuaio/quoteshell.git"
+  },
+  "engine": {
+    "node": ">=6"
+  },
+  "bin": {
+    "quoteshell": "app.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.0"
+  }
+}
