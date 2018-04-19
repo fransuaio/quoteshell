@@ -1,5 +1,5 @@
 {
-  "name": "quoteshel",
+  "name": "quoteshell",
   "version": "1.0.0",
   "description": "\"A command, a nice quote\"",
   "main": "app.js",
