@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 
 const chalk = require('chalk');
@@ -5,6 +7,7 @@ const chalk = require('chalk');
 const log = console.log;
 
 const axios = require('axios');
+
   axios('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=mycallback')
     .then((quote) => {
       const quoteStringRaw = quote.data;	
